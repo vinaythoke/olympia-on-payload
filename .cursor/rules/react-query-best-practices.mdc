@@ -1,0 +1,15 @@
+---
+description: Best practices for data fetching and state management with React Query
+globs: 
+alwaysApply: false
+---
+name: react-query-best-practices.mdc  
+description: Best practices for data fetching and state management with React Query  
+globs: **/*.{ts,tsx}  
+---  
+
+- Use `useQuery` for fetching data and `useMutation` for creating/updating data.  
+- Implement caching strategies to minimize unnecessary network requests.  
+- Use query keys effectively to manage and invalidate cache.  
+
+- Handle loading and error states gracefully in your UI.
